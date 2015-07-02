@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.location.MainActivity" >
+
+<item android:id="@+id/title"
+          android:checkable="false"
+          android:orderInCategory="1"
+          android:showAsAction="ifRoom"
+          android:title=""/>
+    <item android:id="@+id/start"
+          android:title="start"
+          android:orderInCategory="100"
+          android:showAsAction="ifRoom|withText"/>
+    <item android:id="@+id/stop"
+          android:title="stop"
+          android:orderInCategory="3"
+          android:showAsAction="ifRoom|withText"/>
+    <item android:id="@+id/save"
+          android:title="save"
+          android:showAsAction="never"/>
+    <item android:id="@+id/share"
+          android:title="share"
+          android:showAsAction="never"/>
+
+</menu>
